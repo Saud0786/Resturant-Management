@@ -31,3 +31,8 @@
   width: 100%;
   max-width: (40%,500px);
 }
+@media(max-width:750px) {
+  .place-order{
+    display: block;
+  }
+}
