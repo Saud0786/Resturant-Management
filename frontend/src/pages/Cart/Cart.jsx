@@ -9,7 +9,7 @@ function Cart() {
   const  navigate=useNavigate();
 
   return (
-    <div className='cart'>
+    <div className='cart' id='cart>
       <div className="cart-items">
         <div className="cart-items-tittle">
           <p>Items</p>
@@ -59,7 +59,7 @@ function Cart() {
               <b>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
             </div>
           </div>
-          <button onClick={()=>navigate('/order')} >PROCEED TO PAYMENT</button>
+          <button onClick={()=>navigate('/card')} >PROCEED TO PAYMENT</button>
         </div>
 
         <div class="cart-promocode">
