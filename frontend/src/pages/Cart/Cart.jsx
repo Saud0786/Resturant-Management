@@ -59,7 +59,7 @@ function Cart() {
               <b>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
             </div>
           </div>
-          <button onClick={()=>navigate('/card')} >PROCEED TO PAYMENT</button>
+          <button onClick={()=>navigate('/')} >PROCEED TO PAYMENT</button>
         </div>
 
         <div class="cart-promocode">
